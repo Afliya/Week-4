@@ -1,0 +1,115 @@
+.menu {
+    width: 543px;
+    height: 18px;
+    left: 73px;
+    top: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px; 
+    margin: 20px;
+}
+
+.menu1 {
+    text-decoration: none;
+    color: #5A5A5A;
+    width: 100px;
+    height: 18px;
+    font-family: 'Inter', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#phone {
+    position: absolute;
+    height: 18px;
+    left: 1099px;
+    top: 20px;
+    font-family: 'Inter', Times, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #2F80ED;
+}
+
+#background {
+    width: 1209px;
+    height: 530px;
+    opacity: 1;
+    left: 36px;
+    margin: 20px;
+    top: 53px;
+    border-radius: 9px;
+    background: radial-gradient(77.29% 77.29% at 28.75% 82%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#apart-hotel {
+    position: absolute;
+    height: 36px;
+    width: 250px;
+    left: 78px;
+    top: 413px;
+    font-family: 'Inter', Times, sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 110%;
+    color: #D9D9D9;
+}
+
+#skyplazayalta {
+    position: absolute;
+    height: 36px;
+    width: 459px;
+    left: 73px;
+    top: 449px;
+    font-family: 'Inter', Times, sans-serif;
+    font-size: 59px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20%;
+    color: #D9D9D9;
+}
+
+#address {
+    position: absolute;
+    height: 15px;
+    width: 228px;
+    left: 77px;
+    top: 525px;
+    font-family: 'Inter', Times, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 45px;
+    color: #D9D9D9;
+}
+
+#button {
+    position: absolute;
+    width: 463px;
+    height: 81px;
+    left: 738px;
+    top: 558px;
+    background: #2F80ED;
+    border-radius: 9px;
+}
+
+#book {
+    position: absolute;
+    width: 213px;
+    height: 33px;
+    left: 863px;
+    top: 584px;
+    font-family: 'Inter', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px; 
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+}
