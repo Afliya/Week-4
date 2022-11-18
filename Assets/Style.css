@@ -16,11 +16,7 @@
     color: #5A5A5A;
     width: 100px;
     height: 18px;
-    font-family: 'Inter', Times, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
+    font: 500 normal 15px/18px 'Inter', Times, sans-serif;
 }
 
 #phone {
@@ -30,13 +26,9 @@
     height: 18px;
     left: 1099px;
     top: 20px;
-    font-family: 'Inter', Times, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
     text-align: right;
     color: #2F80ED;
+    font: normal 600 15px/18px 'Inter', Times, sans-serif;
 }
 
 #background {
@@ -56,12 +48,8 @@
     width: 250px;
     left: 78px;
     top: 413px;
-    font-family: 'Inter', Times, sans-serif;
-    font-size: 33px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 110%;
     color: #D9D9D9;
+    font: normal 400 33px/110% 'Inter', Times, sans-serif;
 }
 
 #skyplazayalta {
@@ -70,12 +58,8 @@
     width: 459px;
     left: 73px;
     top: 449px;
-    font-family: 'Inter', Times, sans-serif;
-    font-size: 59px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 20%;
     color: #D9D9D9;
+    font: normal 500 59px/20% 'Inter', Times, sans-serif;
 }
 
 #address {
@@ -84,12 +68,8 @@
     width: 228px;
     left: 77px;
     top: 525px;
-    font-family: 'Inter', Times, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 45px;
     color: #D9D9D9;
+    font: normal 400 14px/45px 'Inter', Times, sans-serif;
 }
 
 #button {
@@ -114,14 +94,10 @@
     height: 33px;
     left: 863px;
     top: 584px;
-    font-family: 'Inter', Times, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 25px; 
-    letter-spacing: 0.02em;
-    color: #FFFFFF; 
     padding: 0px;
+    color: #FFFFFF; 
+    font: normal 500 27px/25px 'Inter', Times, sans-serif;
+    letter-spacing: 0.02em;
 }
 
 a:hover {
