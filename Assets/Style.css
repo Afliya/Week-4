@@ -3,7 +3,7 @@
 #rooms, 
 #tworoomapt,
 #price,
-#pernight
+#pernight,
 #tworoomapt2,
 #price2,
 #pernight2,
@@ -124,18 +124,6 @@
     color: #FFFFFF; 
     font: normal 500 27px/25px 'Inter', Times, sans-serif;
     letter-spacing: 0.02em;
-}
-
-a:hover {
-    color: blueviolet;
-}
-
-#button:hover {
-    background-color: cornflowerblue;
-}
-
-#button2:hover {
-    background-color: cornflowerblue;
 }
 
 button:active {
@@ -261,8 +249,6 @@ button:active {
     color: #2D9CDB;
 }
 
-
-
 #roomdescription2 {
     position: absolute;
     width: 287px;
@@ -303,17 +289,6 @@ button:active {
     font-size: 33px;
     line-height: 40px;
     color: #2D9CDB;
-}
-
-#pernight2 {
-    width: 46px;
-    height: 19px;
-    left: 216px;
-    top: 1600px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
 }
 
 #roomdescription3 {
@@ -358,17 +333,6 @@ button:active {
     color: #2D9CDB;
 }
 
-#pernight3 {
-    width: 46px;
-    height: 19px;
-    left: 216px;
-    top: 1600px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-}
-
 #roomdescription4 {
     position: absolute;
     width: 287px;
@@ -410,17 +374,6 @@ button:active {
     line-height: 40px;
     color: #2D9CDB;
     }
-    
-#pernight4 {
-    width: 46px;
-    height: 19px;
-    left: 500px;
-    top: 1000px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-}
 
 #hotel_location {
     position: absolute;
@@ -592,7 +545,7 @@ button:active {
 #footer {
     position: absolute;
     width: 1209px;
-    height: 378px;
+    height: 100px;
     left: 36px;
     top: 4250px;
     background: #FFFFFF;
@@ -603,7 +556,7 @@ button:active {
 #logo {
     width: 80px;
     height: 80px;
-    left: 0px;
+    left: 30px;
     top: 10px;
     background: #FFFFFF;
     box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
@@ -622,4 +575,59 @@ button:active {
     line-height: 36px;
     text-align: right;
     color: #2F80ED;
+}
+
+.menu3 {
+    position: absolute;
+    width: 800px;
+    height: 18px;
+    left: 0px;
+    top: 100px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 20px;
+    gap: 70px;
+}
+
+.menu4 {
+    padding: 20px;
+    text-decoration: none;
+    color: #5A5A5A;
+    width: 100px;
+    height: 18px;
+    font: 300 normal 15px/18px 'Inter', Times, sans-serif;   
+}
+
+#confidentiality {
+    position: absolute;
+    width: 224px;
+    height: 17px;
+    left: 990px;
+    top: 107px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+#button:hover {
+    background-color: cornflowerblue;
+}
+
+#button2:hover {
+    background-color: cornflowerblue;
+}
+
+#phone2:hover {
+    text-decoration: underline;
+}
+
+#phone:hover {
+    text-decoration: underline;
 }
